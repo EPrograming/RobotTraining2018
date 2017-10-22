@@ -1,0 +1,31 @@
+Requirments:
+
+ask for other computer IP address
+
+text Input 
+
+Send data between computers
+
+text from other computer output
+
+ex:
+
+
+What is the other computers IP?
+
+0.000.0.0.0
+
+
+What text do you want to send?
+
+asldkfjasl;kdfj
+
+Sent
+
+
+Text received from other computer:
+
+asldkfjslkdfj
+
+
+
