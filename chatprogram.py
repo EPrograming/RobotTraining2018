@@ -37,6 +37,14 @@ def sendingstuff():
 	
 	connect()
 	
+def getstuff():
+	HOST = '10.128.48.'    # The remote host
+	PORT = 8000              # The same port as used by the server
+	with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+	    s.connect((HOST, PORT))
+	    s.sendall(b'Hello, world')
+	    data = s.recv(1024)
+	print('Received', repr(data))
 
 def main():
 	print("Welcome to my simple chat program")
@@ -45,7 +53,7 @@ def main():
 
 	if(recive == "RECEIVE"):
 		#do things
-		print("this funcinality has not been added :(")
+		getstuff()
 	if(recive == "SEND"):
 		sendingstuff()
 
