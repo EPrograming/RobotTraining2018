@@ -38,7 +38,7 @@ def sendingstuff():
 	connect()
 	
 def getstuff():
-	HOST = '10.128.48.'    # The remote host
+	HOST = input("what is the other computer ip")    # The remote host
 	PORT = 8000              # The same port as used by the server
 	with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
 	    s.connect((HOST, PORT))
