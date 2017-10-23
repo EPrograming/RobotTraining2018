@@ -55,6 +55,7 @@ def main():
 		#do things
 		getstuff()
 	if(recive == "SEND"):
+		
 		sendingstuff()
 
 main()
