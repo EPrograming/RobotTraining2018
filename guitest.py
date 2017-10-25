@@ -44,7 +44,7 @@ def getstuff():
 def Button3():
 	text_contents = text.get()
 	connect(text_contents)
-	listbox.insert(END, "sent sucsefly:")
+	listbox.insert(END, "sent successfully:")
 	listbox.insert(END, text_contents)
 
 
