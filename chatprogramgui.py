@@ -16,6 +16,7 @@ listframe = Frame(root)
 
 
 def connect(toSend):
+    #HOST = ''
     # textToSend = input("What do you want to send?")
     b = toSend.encode('utf-8')
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
